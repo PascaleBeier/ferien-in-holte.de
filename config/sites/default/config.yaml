@@ -1,0 +1,21 @@
+rootPageId: 1
+base: 'https://www.ferien-in-holte.de'
+baseVariants:
+  -
+    base: 'https://hotel.ddev.local'
+    condition: 'applicationContext == "Development"'
+languages:
+  -
+    title: Deutsch
+    enabled: true
+    languageId: '0'
+    base: /
+    typo3Language: de
+    locale: de_DE.UTF-8
+    iso-639-1: de
+    navigationTitle: Deutsch
+    hreflang: de-DE
+    direction: ''
+    flag: global
+errorHandling: {  }
+routes: {  }

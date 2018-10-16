@@ -1,0 +1,7 @@
+.idea
+.ddev
+public/typo3conf/ext/
+public/typo3/
+public/typo3temp/
+var/
+vendor/
