@@ -5,6 +5,7 @@ nbproject
 !/var/labels
 /vendor
 /public/*
+/public/fileadmin/
 !/public/.htaccess
 !/public/android*.png
 !/public/apple*.png
