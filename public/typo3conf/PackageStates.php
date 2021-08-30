@@ -11,6 +11,9 @@ return [
         'core' => [
             'packagePath' => 'typo3/sysext/core/',
         ],
+        'scheduler' => [
+            'packagePath' => 'typo3/sysext/scheduler/',
+        ],
         'extbase' => [
             'packagePath' => 'typo3/sysext/extbase/',
         ],
@@ -26,14 +29,17 @@ return [
         'install' => [
             'packagePath' => 'typo3/sysext/install/',
         ],
+        'recordlist' => [
+            'packagePath' => 'typo3/sysext/recordlist/',
+        ],
+        'backend' => [
+            'packagePath' => 'typo3/sysext/backend/',
+        ],
         'setup' => [
             'packagePath' => 'typo3/sysext/setup/',
         ],
         'rte_ckeditor' => [
             'packagePath' => 'typo3/sysext/rte_ckeditor/',
-        ],
-        'backend' => [
-            'packagePath' => 'typo3/sysext/backend/',
         ],
         'beuser' => [
             'packagePath' => 'typo3/sysext/beuser/',
@@ -47,9 +53,6 @@ return [
         'form' => [
             'packagePath' => 'typo3/sysext/form/',
         ],
-        'recordlist' => [
-            'packagePath' => 'typo3/sysext/recordlist/',
-        ],
         'seo' => [
             'packagePath' => 'typo3/sysext/seo/',
         ],
@@ -61,6 +64,9 @@ return [
         ],
         'hotel' => [
             'packagePath' => 'typo3conf/ext/hotel/',
+        ],
+        'staticfilecache' => [
+            'packagePath' => 'typo3conf/ext/staticfilecache/',
         ],
     ],
     'version' => 5,
