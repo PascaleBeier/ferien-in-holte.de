@@ -1,4 +1,10 @@
 {
+    "repositories": [
+        {
+            "type": "gitlab",
+            "url": "git@gitlab.com:unica-design/hotel.template.git"
+        }
+    ],
     "require": {
         "typo3/minimal": "^9.5",
         "typo3/cms-seo": "^9.5",
@@ -8,6 +14,9 @@
         "typo3/cms-setup": "^9.5",
         "typo3/cms-fluid-styled-content": "^9.5",
         "typo3/cms-beuser": "^9.5",
-        "bk2k/bootstrap-package": "^10.0"
+        "bk2k/bootstrap-package": "^10.0",
+        "helhum/typo3-console": "^5.6",
+        "lochmueller/staticfilecache": "^11.0",
+        "pascale-beier/hotel": "dev-master"
     }
 }

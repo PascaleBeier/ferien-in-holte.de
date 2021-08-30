@@ -1,5 +1,5 @@
 rootPageId: 1
-base: 'https://holte.pascalebeier.de'
+base: 'https://www.ferien-in-holte.de'
 baseVariants:
   -
     base: 'https://hotel.ddev.local'
