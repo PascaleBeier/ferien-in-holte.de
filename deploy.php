@@ -15,7 +15,12 @@ host('live')
     ->set('branch', 'main')
     ->set('public_urls', ['https://www.ferien-in-holte.de'])
     ->set('deploy_path', '/var/www/virtual/holte/site')
-    ->set('ssh_type', 'native');
+    ->set('ssh_type', 'native')
+    ->set('db_databases', [
+        'database_default' => [
+            (new \SourceBroker\DeployerExtendedDatabase\Driver\EnvDriver())->getDatabaseConfig()
+        ]
+    ]);
 
 host('local')
     ->hostname('local')
