@@ -2,7 +2,7 @@ rootPageId: 1
 base: 'https://www.ferien-in-holte.de'
 baseVariants:
   -
-    base: 'https://hotel.ddev.local'
+    base: 'https://ferien-in-holte.ddev.site'
     condition: 'applicationContext == "Development"'
 languages:
   -

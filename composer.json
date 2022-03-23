@@ -6,17 +6,26 @@
         }
     ],
     "require": {
-        "typo3/minimal": "^9.5",
-        "typo3/cms-seo": "^9.5",
-        "typo3/cms-form": "^9.5",
-        "typo3/cms-tstemplate": "^9.5",
-        "typo3/cms-rte-ckeditor": "^9.5",
-        "typo3/cms-setup": "^9.5",
-        "typo3/cms-fluid-styled-content": "^9.5",
-        "typo3/cms-beuser": "^9.5",
-        "bk2k/bootstrap-package": "^10.0",
-        "helhum/typo3-console": "^5.6",
-        "lochmueller/staticfilecache": "^11.0",
-        "pascale-beier/hotel": "dev-master"
+        "typo3/minimal": "^11.5",
+        "typo3/cms-seo": "^11.5",
+        "typo3/cms-form": "^11.5",
+        "typo3/cms-tstemplate": "^11.5",
+        "typo3/cms-rte-ckeditor": "^11.5",
+        "typo3/cms-setup": "^11.5",
+        "typo3/cms-fluid-styled-content": "^11.5",
+        "typo3/cms-beuser": "^11.5",
+        "bk2k/bootstrap-package": "^10.0 || ^11.0 || ^12.0",
+        "helhum/typo3-console": "^5.6 || ^6.0 || ^7.0",
+        "lochmueller/staticfilecache": "^11.0 || ^12.0",
+        "pascale-beier/hotel": "^1.0",
+        "sourcebroker/deployer-extended-typo3": "^18.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "typo3/cms-composer-installers": true,
+            "typo3/class-alias-loader": true,
+            "helhum/typo3-console-plugin": true,
+            "helhum/dotenv-connector": true
+        }
     }
 }
