@@ -8,6 +8,7 @@ new \SourceBroker\DeployerExtendedTypo3\Loader();
 set('repository', 'git@gitlab.com:unica-design/hotel.typo3.git');
 set('web_path', 'public/');
 set('composer_channel', 2);
+set('shared_files', ['.env', get('web_path') . 'typo3conf/AdditionalConfiguration.php']);
 
 host('live')
     ->hostname('holte')
