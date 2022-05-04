@@ -1,11 +1,12 @@
 {
     "repositories": [
         {
-            "type": "gitlab",
-            "url": "git@gitlab.com:unica-design/hotel.template.git"
+            "type": "github",
+            "url": "https://github.com/Haus-Marienmunster/Sitepackage.git"
         }
     ],
     "require": {
+    	"php": "^8.1",
         "typo3/minimal": "^11.5",
         "typo3/cms-seo": "^11.5",
         "typo3/cms-form": "^11.5",

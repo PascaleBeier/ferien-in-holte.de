@@ -5,17 +5,16 @@ namespace Deployer;
 require_once(__DIR__ . '/vendor/sourcebroker/deployer-loader/autoload.php');
 new \SourceBroker\DeployerExtendedTypo3\Loader();
 
-set('repository', 'git@gitlab.com:unica-design/hotel.typo3.git');
+set('repository', 'https://github.com/Haus-Marienmunster/Site.git');
 set('web_path', 'public/');
 set('composer_channel', 2);
 set('shared_files', ['.env', get('web_path') . 'typo3conf/AdditionalConfiguration.php']);
 
 host('live')
-    ->hostname('holte')
-    ->set('http_user', 'holte')
+    ->hostname('ferien-in-holte.de')
     ->set('branch', 'main')
-    ->set('public_urls', ['https://www.ferien-in-holte.de'])
-    ->set('deploy_path', '/var/www/virtual/holte/site')
+    ->set('public_urls', ['http://88.99.145.51/plesk-site-preview/www.ferien-in-holte.de/https/88.99.145.51/'])
+    ->set('deploy_path', '/var/www/vhosts/ferien-in-holte.de/site')
     ->set('ssh_type', 'native')
     ->set('db_databases', [
         'database_default' => [
