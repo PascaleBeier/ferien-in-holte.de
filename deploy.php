@@ -13,7 +13,7 @@ set('shared_files', ['.env', get('web_path') . 'typo3conf/AdditionalConfiguratio
 host('live')
     ->hostname('ferien-in-holte.de')
     ->set('branch', 'main')
-    ->set('public_urls', ['http://88.99.145.51/plesk-site-preview/www.ferien-in-holte.de/https/88.99.145.51/'])
+    ->set('public_urls', ['https:/ferien-in-holte.de/'])
     ->set('deploy_path', '/var/www/vhosts/ferien-in-holte.de/site')
     ->set('ssh_type', 'native')
     ->set('db_databases', [
