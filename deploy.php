@@ -9,7 +9,7 @@ set('repository', 'https://github.com/Haus-Marienmunster/Site.git');
 set('web_path', 'public/');
 set('composer_channel', 2);
 set('bin/composer', '/composer.phar');
-set('shared_files', ['.env', 'config/additional.php']);
+set('shared_files', ['.env', 'config/system/additional.php']);
 
 host('local')
     ->setHostname('local')
