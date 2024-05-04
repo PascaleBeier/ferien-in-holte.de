@@ -9,7 +9,6 @@ set('repository', 'https://github.com/Haus-Marienmunster/Site.git');
 set('web_path', 'public/');
 set('composer_channel', 2);
 set('bin/composer', '/composer.phar');
-set('shared_files', ['.env', get('web_path') . 'typo3conf/AdditionalConfiguration.php']);
 
 host('local')
     ->setHostname('local')
@@ -47,3 +46,4 @@ host('live')
             (new \SourceBroker\DeployerExtendedDatabase\Driver\EnvDriver())->getDatabaseConfig()
         ]
     ]);
+
